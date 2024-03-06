@@ -47,6 +47,17 @@ void bubbleSortArray() {
     } while (pass <= n - 1);
 }
 
+void display() {
+    cout << endl;
+    cout << "============" << endl;
+    cout << "Element Array yang telah tersusun " << endl;
+    cout << "===================================" << endl;
+    for (int j = 0; j < n; j++) {
+        cout << "Jumalah pass = " << n - 1 << endl;
+        cout << endl;
+    }
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
